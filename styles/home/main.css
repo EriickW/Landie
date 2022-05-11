@@ -129,4 +129,59 @@ header nav button {
   z-index: -1;
   overflow-x: hidden;
 }
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  max-width: 111rem;
+  margin: 0 auto;
+  height: 60rem;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.box {
+  width: 25.5rem;
+  height: 14rem;
+}
+
+.container h3 {
+  font-size: 3.6rem;
+  line-height: 4.8rem;
+  margin-bottom: 1.6rem;
+}
+
+.container p {
+  font-size: 1.6rem;
+  color: var(--blue);
+  line-height: 2.6rem;
+  margin-bottom: 8rem;
+}
+
+.box h4 {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+}
+
+.box p {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  margin-bottom: 0px;
+}
+
+.box:nth-child(1) {
+  margin-right: 3rem;
+}
 /*# sourceMappingURL=main.css.map */
