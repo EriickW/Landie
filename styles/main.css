@@ -1,0 +1,132 @@
+:root {
+  font-size: 62.5%;
+  --very-dark-blue:#091133;
+  --dark-blue:#111B47;
+  --logo:#37447E;
+  --blue:#505F98;
+  --titulos:#091133;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: "Roboto";
+}
+
+header {
+  width: 100%;
+  max-width: 111rem;
+  height: 6rem;
+  margin: 0 auto;
+}
+
+header nav {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2rem;
+  font-size: 1.4rem;
+  color: var(--blue);
+}
+
+header .logo {
+  font-size: 2.6rem;
+  font-weight: 800;
+  color: var(--logo);
+}
+
+header nav button {
+  width: 16rem;
+  height: 2.6rem;
+  background: var(--dark-blue);
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-family: "Roboto";
+  border-radius: 0.2rem;
+}
+
+.hero {
+  width: 100%;
+  max-width: 111rem;
+  margin: 0 auto;
+  height: 50rem;
+}
+
+.hero .text {
+  width: 54rem;
+  margin-top: 10rem;
+}
+
+.hero .text h1 {
+  width: 100%;
+  font-size: 5rem;
+  color: var(--titulos);
+  line-height: 6.6rem;
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.hero .text p {
+  font-size: 1.8rem;
+  line-height: 3rem;
+  margin-bottom: 5.5rem;
+}
+
+.hero .compre {
+  width: 19rem;
+  height: 3.6rem;
+  background: var(--dark-blue);
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 0.2rem;
+  font-weight: 700;
+  font-family: "Roboto";
+  margin-right: 3rem;
+}
+
+.hero .saiba {
+  width: 19rem;
+  height: 3.6rem;
+  cursor: pointer;
+  border-radius: 0.2rem;
+  background: transparent;
+  border: 0.2rem solid var(--titulos);
+  color: var(--titulos);
+  font-weight: 700;
+  font-family: "Roboto";
+}
+
+.hero .img {
+  width: 80rem;
+  top: -0px;
+  position: absolute;
+  right: -0px;
+  z-index: -1;
+  overflow-x: hidden;
+}
+/*# sourceMappingURL=main.css.map */

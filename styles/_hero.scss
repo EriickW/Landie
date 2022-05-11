@@ -1,0 +1,58 @@
+.hero{
+  width:100% ;
+  max-width: 111rem;
+  margin: 0 auto;
+  height: 50rem;
+
+  .text{
+    width: 54rem;
+    margin-top:10rem ;
+  }
+  .text h1{
+    width: 100%;
+    font-size: 5rem;
+    color: var(--titulos);
+    line-height: 6.6rem;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+  }
+  .text p{
+    font-size: 1.8rem;
+    line-height: 3rem;
+    margin-bottom: 5.5rem;
+  }
+  .compre{
+    width: 19rem;
+    height: 3.6rem;
+    background: var(--dark-blue);
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 0.2rem;
+    font-weight: 700;
+    font-family: "Roboto";
+    margin-right: 3rem;
+  }
+  .saiba{
+    width: 19rem;
+    height: 3.6rem;
+    cursor: pointer;
+    border-radius: 0.2rem;
+    background: transparent;
+    border:0.2rem solid var(--titulos);
+    color: var(--titulos);
+    font-weight: 700;
+    font-family: "Roboto";
+  }
+  .img{
+    width: 80rem;
+    top:-0px;
+    position: absolute;
+    right: -0px;
+    z-index: -1;
+    overflow-x:hidden;
+  }
+}
+
+

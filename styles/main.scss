@@ -1,0 +1,22 @@
+
+
+:root{
+  font-size: 62.5%;
+  --very-dark-blue:#091133;
+  --dark-blue:#111B47;
+  --logo:#37447E;
+  --blue:#505F98;
+  --titulos:#091133;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  font-family: "Roboto";
+}
+@import "nav";
+@import"hero";
