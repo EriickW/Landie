@@ -7,6 +7,7 @@
   --logo:#37447E;
   --blue:#505F98;
   --titulos:#091133;
+  --white-blue:#E7ECFF;
 }
 *{
   padding: 0;
@@ -21,3 +22,6 @@ body{
 @import "nav";
 @import"hero";
 @import"section1";
+@import"sectionsIntro";
+@import"price";
+@import"footer";

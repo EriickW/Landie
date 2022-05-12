@@ -5,6 +5,7 @@
   --logo:#37447E;
   --blue:#505F98;
   --titulos:#091133;
+  --white-blue:#E7ECFF;
 }
 
 * {
@@ -161,6 +162,7 @@ header nav button {
   font-size: 3.6rem;
   line-height: 4.8rem;
   margin-bottom: 1.6rem;
+  color: var(--titulos);
 }
 
 .container p {
@@ -173,6 +175,7 @@ header nav button {
 .box h4 {
   font-size: 1.6rem;
   line-height: 2.6rem;
+  color: var(--titulos);
 }
 
 .box p {
@@ -183,5 +186,88 @@ header nav button {
 
 .box:nth-child(1) {
   margin-right: 3rem;
+}
+
+.intro {
+  height: 57rem;
+}
+
+.intro .text {
+  width: 44.5rem;
+  height: 23rem;
+}
+
+.intro img {
+  margin-right: 15rem;
+}
+
+#sec3 img {
+  margin-right: 12.5rem;
+}
+
+#sec4 img {
+  margin: 0;
+  margin-right: 22.2rem;
+}
+
+.price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  max-width: 111rem;
+  margin: 0 auto;
+  height: 77.9rem;
+}
+
+.price img {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  -webkit-transform: translateY(4rem);
+          transform: translateY(4rem);
+}
+
+.price .content-price {
+  text-align: center;
+}
+
+.price .content-price h3 {
+  font-size: 3.6rem;
+  line-height: 4.8rem;
+  margin-bottom: 1.6rem;
+  color: var(--titulos);
+}
+
+.price .content-price p {
+  font-size: 1.6rem;
+  color: var(--blue);
+  line-height: 2.6rem;
+  margin-bottom: 3.6rem;
+  width: 60rem;
+}
+
+.price .content-price button {
+  width: 16rem;
+  height: 2.6rem;
+  background: var(--dark-blue);
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-family: "Roboto";
+  border-radius: 0.2rem;
+}
+
+footer {
+  width: 100%;
+  margin: 0 auto;
+  height: 22rem;
+  background: var(--white-blue);
 }
 /*# sourceMappingURL=main.css.map */
