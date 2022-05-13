@@ -5,14 +5,16 @@
   width:100% ;
   max-width: 111rem;
   margin: 0 auto;
-  height: 77.9rem;
+  height: 65rem;
   img{
     position: absolute;
     z-index: -1;
     width: 100%;
-    transform: translateY(4rem);
+    height: 77.9rem;
+    object-position: 0 7rem;
   }
   .content-price{
+  
     text-align: center;
   }
   .content-price h3{

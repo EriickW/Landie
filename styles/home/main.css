@@ -223,15 +223,16 @@ header nav button {
   width: 100%;
   max-width: 111rem;
   margin: 0 auto;
-  height: 77.9rem;
+  height: 65rem;
 }
 
 .price img {
   position: absolute;
   z-index: -1;
   width: 100%;
-  -webkit-transform: translateY(4rem);
-          transform: translateY(4rem);
+  height: 77.9rem;
+  -o-object-position: 0 7rem;
+     object-position: 0 7rem;
 }
 
 .price .content-price {
@@ -269,5 +270,101 @@ footer {
   margin: 0 auto;
   height: 22rem;
   background: var(--white-blue);
+}
+
+footer #content-footer {
+  width: 100%;
+  max-width: 111rem;
+  margin: 0 auto;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .top-footer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 4rem;
+}
+
+footer .top-footer p {
+  font-size: 1.4rem;
+  color: #939EA4;
+}
+
+footer .top-footer h3 {
+  font-size: 2.6rem;
+  color: var(--logo);
+}
+
+footer .top-footer button {
+  width: 12.5rem;
+  height: 2.6rem;
+  background: var(--dark-blue);
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-family: "Roboto";
+  border-radius: 0.2rem;
+}
+
+footer hr {
+  width: 100%;
+  height: 0.1rem;
+  border: none;
+  background: #cdd1d4;
+  margin-bottom: 2rem;
+}
+
+footer .bot-footer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .bot-footer ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 6rem;
+  font-size: 1.4rem;
+}
+
+footer .bot-footer ul a {
+  text-decoration: none;
+  color: #929ecc;
+}
+
+footer .bot-footer .icones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3rem;
+}
+
+footer .bot-footer .icones i {
+  font-size: 1.6rem;
+  color: #b0b8bc;
 }
 /*# sourceMappingURL=main.css.map */
