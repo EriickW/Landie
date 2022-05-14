@@ -1,0 +1,107 @@
+@media (max-width:1024px) {
+  :root{
+    font-size: 50%;
+  }
+  header{
+    max-width: 80rem;
+  }
+  .container{
+    max-width: 90rem;
+  }
+  #sec1{
+    margin-top: 10rem;
+
+  }
+  #sec1 .imgsec1 img{
+    width: 50rem;
+
+  }
+  #content-footer{
+    padding: 0 2rem;
+  }
+
+}
+@media (max-width:769px) {
+  .container{
+    max-width: 90rem;
+  }
+  .hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    img{
+      display: none;
+    }
+  }
+  #sec1 .imgsec1 img{
+    width: 30rem;
+
+  }
+  #sec2 img{
+    width: 34rem;
+    margin-right: 5rem;
+  }
+  #sec3 img{
+    margin-right: 5rem;
+    width: 34rem;
+  }
+  #sec4 img{
+    margin-right: 5rem;
+    width: 34rem;
+  }
+  footer #content-footer{
+    max-width: 80rem;
+  }
+}
+@media (max-width:679px) {
+  header{
+    max-width: 50rem;
+  }
+  #sec1{
+    height: 100%;
+    min-height: 60rem;
+    flex-direction: column;
+    text-align: center;
+    .box:nth-child(1){
+      margin-right: 2rem;
+    } 
+  }
+  .imgsec1 {
+    order: -1;
+    img{
+      width: 50rem;
+      display: flex;
+  
+    }
+  }
+  #sec2, #sec3, #sec4{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .price .content-price p{
+    width: 50rem;
+  }
+  #sec2 img{
+    width: 34rem;
+    margin: 0 auto;
+  }
+  #sec3 img{
+    margin: 0 auto;
+    width: 34rem;
+  }
+  #sec4 img{ 
+    margin: 0 auto;
+    width: 34rem;
+  }
+  footer .bot-footer ul{
+    gap:3rem;
+  }
+  footer #content-footer{
+    max-width: 50rem;
+  }
+}

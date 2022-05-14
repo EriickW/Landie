@@ -6,31 +6,39 @@
   max-width: 111rem;
   margin: 0 auto;
   height: 60rem;
+  
+}
+.textos-sec{
+  width: 54rem;
 }
 .content{
   display:flex;
 }
+
 .box{
   width: 25.5rem;
   height: 14rem;
   
 }
-.container h3{
+.textos-sec h3{
   font-size: 3.6rem;
   line-height: 4.8rem;
   margin-bottom: 1.6rem;
-  color:var(--titulos)
+  color:var(--titulos);
+  
 }
-.container p{
+.textos-sec p{
   font-size: 1.6rem;
   color:var(--blue);
   line-height: 2.6rem;
   margin-bottom: 8rem;
+  width: 100%;
 }
 .box h4{
   font-size:1.6rem;
    line-height: 2.6rem;
-   color:var(--titulos)
+   color:var(--titulos);
+
 }
 .box p{
   font-size: 1.2rem;
@@ -39,4 +47,4 @@
 }
 .box:nth-child(1){
   margin-right: 3rem;
-}
+}                                     

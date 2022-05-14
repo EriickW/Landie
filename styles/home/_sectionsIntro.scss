@@ -5,13 +5,33 @@
     height: 23rem;
   }
   img{
-    margin-right: 15rem;
+    
+    width: 48rem;
   }
+h3{
+  font-size: 3.6rem;
+  color:var(--titulos);
+}
+}
+#sec2{
+  margin: 0 auto;
+}
+#sec3{
+  margin: 0 auto;
+}
+#sec4{
+  margin: 0 auto;
+}
+#sec2 img{
+  margin-right: 15rem;
+  width: 54rem;
 }
 #sec3 img{
   margin-right: 12.5rem;
+  width: 54rem;
 }
 #sec4 img{
   margin: 0;
   margin-right: 22.2rem;
+  width: 44.5rem;
 }
