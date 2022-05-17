@@ -469,17 +469,20 @@ footer .bot-footer .icones i {
         -ms-flex-direction: column;
             flex-direction: column;
     text-align: center;
+    margin-bottom: 6rem;
   }
   #sec1 .box:nth-child(1) {
     margin-right: 2rem;
   }
-  .imgsec1 {
+  #sec1 .imgsec1 {
     -webkit-box-ordinal-group: 0;
         -ms-flex-order: -1;
             order: -1;
+    margin-top: 0;
+    margin-bottom: 4rem;
   }
-  .imgsec1 img {
-    width: 50rem;
+  #sec1 .imgsec1 img {
+    width: 40rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -500,6 +503,7 @@ footer .bot-footer .icones i {
         -ms-flex-direction: column;
             flex-direction: column;
     margin: 0 auto;
+    margin-bottom: 2rem;
   }
   .price .content-price p {
     width: 50rem;
@@ -507,14 +511,17 @@ footer .bot-footer .icones i {
   #sec2 img {
     width: 34rem;
     margin: 0 auto;
+    margin-bottom: 4rem;
   }
   #sec3 img {
     margin: 0 auto;
     width: 34rem;
+    margin-bottom: 4rem;
   }
   #sec4 img {
     margin: 0 auto;
     width: 34rem;
+    margin-bottom: 4rem;
   }
   footer .bot-footer ul {
     gap: 3rem;

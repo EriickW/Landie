@@ -63,17 +63,21 @@
     min-height: 60rem;
     flex-direction: column;
     text-align: center;
+    margin-bottom: 6rem;
     .box:nth-child(1){
       margin-right: 2rem;
     } 
+    .imgsec1 {
+      order: -1;
+      margin-top: 0;
+      margin-bottom: 4rem;
+      img{
+       width: 40rem;
+        display: flex;
+    
+      }
   }
-  .imgsec1 {
-    order: -1;
-    img{
-      width: 50rem;
-      display: flex;
   
-    }
   }
   #sec2, #sec3, #sec4{
     text-align: center;
@@ -82,6 +86,7 @@
     align-items: center;
     flex-direction: column;
     margin: 0 auto;
+    margin-bottom: 2rem;
   }
   .price .content-price p{
     width: 50rem;
@@ -89,14 +94,17 @@
   #sec2 img{
     width: 34rem;
     margin: 0 auto;
+    margin-bottom: 4rem;
   }
   #sec3 img{
     margin: 0 auto;
     width: 34rem;
+    margin-bottom: 4rem;
   }
   #sec4 img{ 
     margin: 0 auto;
     width: 34rem;
+    margin-bottom: 4rem;
   }
   footer .bot-footer ul{
     gap:3rem;
