@@ -11,7 +11,7 @@
 
 ## Links importantes
 - [Meu perfil](https://github.com/EriickW)
-- [Site no ar]()
+- [Site no ar](https://eriickw.github.io/Landie/)
 
 <br>
 
